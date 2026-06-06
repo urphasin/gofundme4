@@ -1,4 +1,4 @@
-fetch("output.txt")
+fetch("./misc/output.txt")
     .then(x => x.text())
     .then(y => document.getElementById("demo").innerHTML = y);
 
