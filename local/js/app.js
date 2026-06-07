@@ -13,3 +13,11 @@ document.getElementById("donate").addEventListener("click", async () => {
     
     const { clientSecret } = await res.json();
 })
+
+const APP = {
+    SW: null,
+    init() {
+        
+    },
+};
+document.addEventListener('DOMContentLoaded', APP.init);
